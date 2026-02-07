@@ -1,0 +1,49 @@
+:root {
+  --rb-primary: #452829;
+  --rb-secondary: #57595B;
+  --rb-light: #E8D1C5;
+  --rb-bg: #0a0c0b;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--rb-bg);
+  color: var(--rb-light);
+}
+
+/* section 1 */
+.object-fit-cover {
+  object-fit: cover;
+}
+
+.landing-film {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.28);
+  pointer-events: none;
+}
+
+.landing-title {
+  color: #F3E8DF;
+}
+
+.landing-text {
+  color: #E8D1C5;
+}
+
+.landing-section {
+  background-color: #7c7c7c;
+}
+
+.landing-btn {
+  border-color: #E8D1C5;
+  color: #E8D1C5;
+  letter-spacing: 0.15em;
+  transition: all 0.4s ease;
+}
+
+.landing-btn:hover {
+  background: #E8D1C5;
+  color: #452829;
+  box-shadow: 0 0 30px rgba(232, 209, 197, 0.35);
+}
